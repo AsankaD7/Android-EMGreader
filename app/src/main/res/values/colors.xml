@@ -6,4 +6,15 @@
     <color name="red">  #FF0000</color>
     <color name="cyan3">#307D7E</color>
     <color name="orange">#FF8040</color>
+    <color name="colorPrimary">#51d8c7</color>
+    <color name="colorPrimaryDark">#51d8c7</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="colorBackground">#232530</color>
+    <color name="colorText">#FFFFFF</color>
+    <color name="colorTextHint">#51d8c7</color>
+    <color name="circlecolor">#85c1e9</color>
+    <color name="secondcirclecolor">#8000afef</color>
+    <color name="text">#ff80b3</color>
+    <color name="texthint">#ffb3d1</color>
+    <color name="toolbar"> #1f618d </color>
 </resources>

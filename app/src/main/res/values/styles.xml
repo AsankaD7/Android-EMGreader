@@ -1,7 +1,40 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="android:Theme.Light"/>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textColorHint">@color/colorText</item>
+        <item name="colorControlNormal">@color/colorText</item>
+        <item name="colorControlActivated">@color/colorText</item>
+    </style>
+    <style name="OurTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@android:color/darker_gray</item>
+        <item name="colorAccent">@color/circlecolor</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textColorHint">@android:color/darker_gray</item>
+        <item name="colorControlNormal">@color/colorText</item>
+        <item name="colorControlActivated">@color/circlecolor</item>
+        <item name="android:colorForeground">@color/colorAccent</item>
+        <item name="android:textColorPrimaryInverse">@color/colorAccent</item>
+        <item name="android:textColorSecondaryInverse">@color/secondcirclecolor</item>
+        <item name="android:colorBackground">@color/colorAccent</item>
+
+    </style>
+
+    <style name="HeaderBar">
+        <item name="android:background">#303F9F</item>
+    </style>
+
+    <style name="ActionBarPopupThemeOverlay">#000000</style>
+
+    <style name="HomeUpButton">
+        <item name="android:displayOptions">showHome|showTitle</item>
+        <item name="displayOptions">showHome|showTitle</item>
+    </style>
 
 
 </resources>
