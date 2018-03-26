@@ -4,38 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
-    android:background="@drawable/black"
+    android:background="@color/colorBackground"
 tools:context="com.example.asankad7.eeg.MainActivity">
 
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="250dp"
-        android:layout_height="100dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="27dp"
-        android:src="@drawable/emg" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="Get Start!"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="50dp" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="250dp"
-        android:layout_height="200dp"
-        android:layout_alignStart="@+id/imageView"
-        android:layout_below="@+id/imageView"
-        android:layout_marginTop="11dp"
-        android:src="@drawable/signal" />
-
-    <ImageButton
-        android:id="@+id/imageButton6"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:layout_below="@+id/imageView2"
+    <at.markushi.ui.CircleButton
+        android:id="@+id/bStartone"
+        android:layout_width="200dip"
+        android:layout_height="200dip"
+        android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="34dp"
-        android:background="?android:selectableItemBackground"
-        android:scaleType="centerInside"
-        android:src="@drawable/start" />
+        android:layout_marginTop="56dp"
+        android:src="@drawable/start"
+        app:cb_color="@color/secondcirclecolor"
+        app:cb_pressedRingWidth="10dip" />
 
 
 </RelativeLayout>

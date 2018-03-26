@@ -17,6 +17,6 @@
     <string name="error_email_exists">Email Already Exists</string>
     <string name="error_password_match">Password Does Not Matches</string>
     <string name="error_valid_email_password">Wrong Email or Password</string>
-    <string name="about" >EMG signals work with EMG machines and is the process of organism functions that are control through techniques used through monitoring device.This devices display data, which relates to processes of bodily functions. EMG reader allows experts to monitor EMG feedback by coonecting to the EMG device.</string>
+    <string name="about">EMG signals work with EMG machines and is the process of organism functions that are control through techniques used through monitoring device.This devices display data, which relates to processes of bodily functions. EMG reader allows experts to monitor EMG feedback by coonecting to the EMG device.</string>
     <string name="version">v1.0</string>
 </resources>

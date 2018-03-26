@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/logo"
+        android:id="@+id/logo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvabout"
+        android:text="@string/about"
+        android:textColor="@color/colorText"
+        android:layout_below="@+id/logo"
+        android:layout_marginTop="40dp"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:textSize="14dp"
+
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tvabout"
+        android:layout_marginTop="80dp"
+        android:text="@string/version"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/colorText"
+        />
+
+</RelativeLayout>
